@@ -1,0 +1,52 @@
+/* #1 */
+.one{
+width: 300px;
+background-color: plum;
+text-align: center;
+padding: 25px;
+margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+ /* #2 */
+ label {
+    display: block;
+    margin-bottom: 10px;
+  }
+ .two{
+    width: 300px;
+    background-color: rgb(244, 13, 136);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+ 
+ /* #3 */
+ .three{
+    width: 300px;
+    background-color: rgb(23, 70, 226);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+ /* #4 */
+ .four{
+    width: 300px;
+    background-color: rgb(228, 245, 0);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+ /* #5 */
+ .five{
+    width: 300px;
+    background-color: rgba(195, 5, 220, 0.703);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}

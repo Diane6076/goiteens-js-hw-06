@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 1. -->
+<div class="one">
+    <label>
+        <p> Поле 1:</p> 
+      <input type="text" id="field1">
+    </label>
+    <label>
+        <p>Поле 2:</p>  
+      <input type="text" id="field2">
+    </label>
+    <button type="button" onclick="checkFields()">Перевірити</button>
+</div>
+<!-- 2.-->
+<div class="two">
+    <label>
+      <p> Поле 1:</p> 
+        <input type="number" id="poleOne">
+      </label>
+      <label>
+      <p>Поле 2:</p>  
+        <input type="number" id="poleTwo">
+      </label>
+      <button type="button" onclick="checkSum()">Перевірити</button>
+</div>
+
+<!-- 3. -->
+<div class="three">
+    <label>
+        <p>Введіть текст:</p>
+        <input type="text" id="textInput">
+      </label>
+      <button type="button" onclick="checkText()">Перевірити</button>
+    
+</div>
+
+<!-- 4. -->
+<div class="four">
+  <label>
+   <p> Введіть число:</p>
+    <input type="number" id="numberInput">
+  </label>
+  <button type="button" onclick="checkNumber()">Перевірити</button>
+</div>
+<!-- 5.-->
+<div class="five">
+    <label>
+      <p>Ім'я:</p>  
+        <input type="text" id="nameInput">
+      </label>
+      <label>
+      <p>Email:</p>  
+        <input type="text" id="emailInput">
+      </label>
+      <label>
+      <p>  Пароль:</p>
+        <input type="password" id="passwordInput">
+      </label>
+      <button type="button" onclick="validateForm()">Перевірити</button>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
