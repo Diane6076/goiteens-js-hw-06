@@ -1,4 +1,3 @@
-//1
 function checkFields() {
     const field1Value = document.getElementById("field1").value;
     const field2Value = document.getElementById("field2").value;
@@ -10,7 +9,6 @@ function checkFields() {
     }
   }
 
-//2
 function checkSum() {
     const poleOneValue = parseInt(document.getElementById("poleOne").value);
     const poleTwoValue = parseInt(document.getElementById("poleTwo").value);
@@ -23,7 +21,6 @@ function checkSum() {
     }
   }
 
-//3
 function checkText() {
     const inputText = document.getElementById("textInput").value;
     const containsJavaScript = inputText.includes("JavaScript");
@@ -35,7 +32,6 @@ function checkText() {
     }
   }
 
-//4
 function checkNumber() {
     const inputNumber = parseInt(document.getElementById("numberInput").value);
 
@@ -46,7 +42,6 @@ function checkNumber() {
     }
   }
 
-//5
 function validateForm() {
     const name = document.getElementById("nameInput").value;
     const email = document.getElementById("emailInput").value;
