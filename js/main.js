@@ -32,7 +32,7 @@ function checkText() {
     }
   }
 
-function checkNumber() {
+function checkNumbers() {
     const inputNumber = parseInt(document.getElementById("numberInput").value);
 
     if (inputNumber > 10 && inputNumber < 20) {
